@@ -2,6 +2,7 @@ body{
 	background: url(https://picsum.photos/1080/790) ;
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 
 }
 img{
@@ -19,20 +20,20 @@ section{
 p, form{
 	font-size: 20px;
 	text-align: center;
+	font-family: helvetica;
 }
 p{
 	color: #fff;
 	font-weight: bold;
 	text-shadow: 1px 1px 2px black;
-
 }
 input {
-	border:  none;
-	padding: 7px 2px;
+	border:  0;
+	padding: 10px;
+	font-family: helvetica;
+	font-size: 18px;
 }
-button {
-	padding:  7px 10px;
+input[type="submit"]{
 	background:  red;
-	border:  none;
 	color: #fff;
 }

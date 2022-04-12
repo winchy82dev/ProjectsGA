@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: helvetica;
+}
+header {
+  text-align: center;
+  background: url('https://i.ibb.co/yPJSKvD/pixel-art-540p.gif');
+  background-size: cover;
+  background-position: center;
+  color: white;
+ 
+}
+a {
+  font-weight: bold;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+a:hover{
+ color: royalblue;
+ background: #fff;
+}
+h1 {
+  font-size: 70px;
+  text-shadow: 1px 1px 2px black;
+}
+h2 a {
+   color: royalblue;
+   padding: 0;
+}
+h2 a:hover{
+  text-shadow: 1px 1px 2px gray;
+}
+h2{
+  color: royalblue;
+  margin-bottom: 5px;
+}
+img {
+  margin: 40px 0;
+  border: 5px solid white;
+  border-radius: 75px;
+}
+ul {
+  margin-top: 35px;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+}
+p{
+  text-align: justify;
+  line-height: 1.5;
+}
+
+button{
+  margin-top: 10px;
+  padding: 10px 20px;
+  color: white;
+  background: royalblue;
+  border: 1px solid royalblue;
+}
+button:hover{
+  color: royalblue;
+  background: #fff;
+  border: 1px solid royalblue;
+  cursor: pointer;
+}
+
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
+  li {
+    padding: 15px;
+    display: block;
+  }
+}
